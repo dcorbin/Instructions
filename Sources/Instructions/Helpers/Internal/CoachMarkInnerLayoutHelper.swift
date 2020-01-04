@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 import UIKit
-
+@available(iOS 9, *)
 class CoachMarkInnerLayoutHelper {
     func horizontalArrowConstraints(for coachMarkViews: CoachMarkViews,
                                     withPosition position: ArrowPosition,

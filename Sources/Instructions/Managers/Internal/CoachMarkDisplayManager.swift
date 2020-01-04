@@ -23,6 +23,7 @@
 import UIKit
 
 /// This class deals with the layout of coach marks.
+@available(iOS 9, *)
 class CoachMarkDisplayManager {
     // MARK: - Public properties
     weak var dataSource: CoachMarksControllerProxyDataSource!

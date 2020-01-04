@@ -22,6 +22,7 @@
 
 import UIKit
 
+@available(iOS 9, *)
 class CoachMarkLayoutHelper {
     var layoutDirection: UIUserInterfaceLayoutDirection = .leftToRight
 

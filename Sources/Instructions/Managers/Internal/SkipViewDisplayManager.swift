@@ -22,6 +22,7 @@
 
 import UIKit
 
+@available(iOS 9, *)
 /// This class deals with the layout of the "skip" view.
 class SkipViewDisplayManager {
     // MARK: - Internal properties

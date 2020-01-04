@@ -25,6 +25,7 @@ import UIKit
 // swiftlint:disable force_cast
 
 /// The actual coach mark that will be displayed.
+@available(iOS 9, *)
 class CoachMarkView: UIView {
     // MARK: - Internal properties
 

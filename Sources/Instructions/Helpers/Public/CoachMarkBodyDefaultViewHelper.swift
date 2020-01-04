@@ -26,6 +26,7 @@ import UIKit
 // MARK: - Main Class
 /// A concrete implementation of the coach mark body view and the
 /// default one provided by the library.
+@available(iOS 9, *)
 open class CoachMarkBodyDefaultViewHelper {
     func makeHorizontalConstraints(for views: CoachMarkBodyDefaultSubViews)
     -> [NSLayoutConstraint] {

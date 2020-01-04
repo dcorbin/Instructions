@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 import UIKit
-
+@available(iOS 9, *)
 internal extension UIView {
 
     var isOutOfSuperview: Bool {

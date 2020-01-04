@@ -24,6 +24,7 @@ import UIKit
 
 /// A concrete implementation of the coach mark skip view and the
 /// default one provided by the library.
+@available(iOS 9, *)
 public class CoachMarkSkipDefaultView: UIButton, CoachMarkSkipView {
     // MARK: - Public properties
     public var skipControl: UIControl? {

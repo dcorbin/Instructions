@@ -25,6 +25,7 @@ import UIKit
 // MARK: - Default Class
 /// A concrete implementation of the coach mark arrow view and the
 /// default one provided by the library.
+@available(iOS 9, *)
 public class CoachMarkArrowDefaultView: UIImageView, CoachMarkArrowView {
     // MARK: - Initialization
     public init(orientation: CoachMarkArrowOrientation) {
